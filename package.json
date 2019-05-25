@@ -1,0 +1,30 @@
+{
+  "name": "stack-mean",
+  "version": "1.0.0",
+  "description": "Mongo, Express, Node JS API REST.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanjo097/stack-mean.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanjo097/stack-mean/issues"
+  },
+  "homepage": "https://github.com/juanjo097/stack-mean#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "mongojs": "^2.6.0"
+  }
+}
